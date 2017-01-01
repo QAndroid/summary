@@ -1,4 +1,4 @@
-package com.qproject.knowledge;
+package com.qandroid.summary;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.qproject.knowledge.test", appContext.getPackageName());
+        assertEquals("com.qandroid.summary.test", appContext.getPackageName());
     }
 }
