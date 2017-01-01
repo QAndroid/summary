@@ -1,4 +1,4 @@
-package com.qproject.knowledge;
+package com.qandroid.summary;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

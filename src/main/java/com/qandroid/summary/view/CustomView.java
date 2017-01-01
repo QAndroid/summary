@@ -1,4 +1,4 @@
-package com.qproject.knowledge.view;
+package com.qandroid.summary.view;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -8,7 +8,7 @@ import android.graphics.Paint;
 import android.util.AttributeSet;
 import android.view.View;
 
-import com.qproject.knowledge.R;
+import com.qandroid.summary.R;
 
 /**
  * Created by chengxiang.peng on 2016/12/30.
