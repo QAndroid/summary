@@ -6,6 +6,7 @@ import android.view.View;
 import com.qandroid.common.QBaseActivity;
 import com.qandroid.summary.NameSpaceActivity;
 import com.qandroid.summary.R;
+import com.qandroid.summary.memoryleak.MemoryLeakActivity;
 
 public class SummaryActivity extends QBaseActivity {
 
@@ -17,5 +18,9 @@ public class SummaryActivity extends QBaseActivity {
 
     public void toNameSpace(View view) {
         toActivityByClass(NameSpaceActivity.class);
+    }
+
+    public void toMemoryLeak(View view) {
+        toActivityByClass(MemoryLeakActivity.class);
     }
 }
