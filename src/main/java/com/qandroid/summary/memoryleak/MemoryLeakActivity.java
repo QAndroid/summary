@@ -2,16 +2,21 @@ package com.qandroid.summary.memoryleak;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
+import com.qandroid.common.QBaseActivity;
+import com.qandroid.summary.NameSpaceActivity;
 import com.qandroid.summary.R;
 
-public class MemoryLeakActivity extends AppCompatActivity {
+public class MemoryLeakActivity extends QBaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_memory_leak);
+        setContentView(R.layout.activity_memoryleak);
+    }
 
-        MemoryLeakManager memoryLeakManager = MemoryLeakManager.getInstance(this);
+    public void toSingleton(View view) {
+        toActivityByClass(SingletonActivity.class);
     }
 }

@@ -10,6 +10,8 @@
         <activity android:name=".NameSpaceActivity"/>
         <activity android:name=".memoryleak.MemoryLeakActivity">
         </activity>
+        <activity android:name=".memoryleak.SingletonActivity">
+        </activity>
     </application>
 
 </manifest>
