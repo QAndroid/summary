@@ -23,4 +23,8 @@ public class MemoryLeakActivity extends QBaseActivity {
     public void toInnerClass(View view) {
         toActivityByClass(InnerClassActivity.class);
     }
+
+    public void toThreadAsync(View view) {
+        toActivityByClass(ThreadAsyncActivity.class);
+    }
 }

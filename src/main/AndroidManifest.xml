@@ -14,6 +14,8 @@
         </activity>
         <activity android:name=".memoryleak.InnerClassActivity">
         </activity>
+        <activity android:name=".memoryleak.ThreadAsyncActivity">
+        </activity>
     </application>
 
 </manifest>
