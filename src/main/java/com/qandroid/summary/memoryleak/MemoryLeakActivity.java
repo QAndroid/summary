@@ -19,4 +19,8 @@ public class MemoryLeakActivity extends QBaseActivity {
     public void toSingleton(View view) {
         toActivityByClass(SingletonActivity.class);
     }
+
+    public void toInnerClass(View view) {
+        toActivityByClass(InnerClassActivity.class);
+    }
 }

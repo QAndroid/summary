@@ -12,6 +12,8 @@
         </activity>
         <activity android:name=".memoryleak.SingletonActivity">
         </activity>
+        <activity android:name=".memoryleak.InnerClassActivity">
+        </activity>
     </application>
 
 </manifest>
