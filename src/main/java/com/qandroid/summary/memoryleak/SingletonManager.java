@@ -17,7 +17,8 @@ public class SingletonManager {
 
     public static SingletonManager getInstance(Context context) {
         if (instance == null) {
-            instance = new SingletonManager(context);
+            //在涉及到使用Context的地方，优先使用ApplicationContext。但是要视具体情况，有些地方则必须使用Activity的上下文
+            instance = new SingletonManager(context.getApplicationContext());
         }
         return instance;
     }
