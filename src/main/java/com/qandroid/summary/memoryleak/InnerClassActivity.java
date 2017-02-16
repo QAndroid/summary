@@ -24,7 +24,7 @@ public class InnerClassActivity extends AppCompatActivity {
     }
 
     //保存资源的内部类
-    class ResourceClass {
+    static class ResourceClass {
 
     }
 }
